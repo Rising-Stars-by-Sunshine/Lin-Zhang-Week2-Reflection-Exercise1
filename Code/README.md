@@ -22,7 +22,4 @@ This notebook performs exploratory data analysis (EDA) on an image dataset consi
 
 ## How to Use
 1. Clone or download the repository.
-2. Ensure you have the required libraries installed by running:
-   ```bash
-   pip install numpy matplotlib Pillow
-
+2. Ensure you have the required libraries.
