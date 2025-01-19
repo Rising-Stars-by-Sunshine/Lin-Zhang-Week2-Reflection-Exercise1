@@ -20,9 +20,11 @@ This repository contains a dataset for training and evaluating deblurring models
 
 ### Python Dependencies
 Make sure to install the following Python libraries:
+- **os**
 - **numpy**
-- **pandas**
+- **random**
 - **matplotlib**
+- **Image**
 
 ---
 
@@ -57,6 +59,8 @@ Make sure to install the following Python libraries:
 4. **Import Libraries**:
    Once the Jupyter Notebook is running, you can import the libraries in your notebook as follows:
    ```bash
-   import matplotlib.pyplot as plt
+   import os
    import numpy as np
-   import pandas as pd
+   import random
+   import matplotlib.pyplot as plt
+   from PIL import Image 
