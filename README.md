@@ -7,7 +7,7 @@ This repository contains a dataset for training and evaluating deblurring models
 ## Repository Structure
 
 - **data/**: Contains the dataset, including blurry and sharp images.
-- **code/**: Contains the Python code, including Jupyter Notebooks for exploratory data analysis and model implementation.
+- **code/**: Contains the Python code, including Jupyter Notebooks for exploratory data analysis and model implementation (Week2ReflectionCode.ipynb). And Python code for explanation, prediction, and causal inference of revised research topic (ProblemSet2.ipynb).
 - **README.md**: This file, containing setup instructions.
 
 
