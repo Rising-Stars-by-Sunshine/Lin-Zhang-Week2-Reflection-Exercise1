@@ -1,3 +1,4 @@
+README For Week 2 Reflection
 # Image Dataset Exploration
 
 This notebook performs exploratory data analysis (EDA) on an image dataset consisting of blurry and clean image pairs. The goal is to help you visualize the dataset and understand its key characteristics, including image sizes and brightness distributions.
