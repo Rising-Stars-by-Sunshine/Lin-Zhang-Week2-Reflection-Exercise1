@@ -7,7 +7,7 @@ This repository contains a dataset for training and evaluating deblurring models
 ## Repository Structure
 
 - **data/**: Contains the dataset, including blurry and sharp images.
-- **code/**: Contains the Python code, including Jupyter Notebooks for exploratory data analysis and model implementation (Week2ReflectionCode.ipynb). And Python code for explanation, prediction, and causal inference of revised research topic (ProblemSet2.ipynb).
+- **code/**: Contains the Python code, including Jupyter Notebooks for exploratory data analysis and model implementation (`Week2ReflectionCode.ipynb`). And Python code for explanation, prediction, and causal inference of revised research topic (`ProblemSet2.ipynb`).
 - **README.md**: This file, containing setup instructions.
 
 
@@ -53,7 +53,7 @@ Make sure to install the following Python libraries listed in the below section
 
 4. **Import Libraries**:
    **Once the Jupyter Notebook is running, you can import the libraries in your notebook as follows:**<br>
-   For Week2ReflectionCode.ipynb：
+   For `Week2ReflectionCode.ipynb`：
    ```bash
    import os
    import numpy as np
@@ -62,7 +62,7 @@ Make sure to install the following Python libraries listed in the below section
    from PIL import Image
    ```
 
-   For ProblemSet2.ipynb：
+   For `ProblemSet2.ipynb`：
    ```bash
    import os
    import numpy as np
