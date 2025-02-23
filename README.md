@@ -19,12 +19,7 @@ This repository contains a dataset for training and evaluating deblurring models
 - **Internet connection** for installing dependencies
 
 ### Python Dependencies
-Make sure to install the following Python libraries:
-- **os**
-- **numpy**
-- **random**
-- **matplotlib**
-- **Image**
+Make sure to install the following Python libraries listed in the below section
 
 ---
 
@@ -57,10 +52,28 @@ Make sure to install the following Python libraries:
    jupyter notebook
 
 4. **Import Libraries**:
-   Once the Jupyter Notebook is running, you can import the libraries in your notebook as follows:
+   **Once the Jupyter Notebook is running, you can import the libraries in your notebook as follows:**<br>
+   For Week2ReflectionCode.ipynb：
    ```bash
    import os
    import numpy as np
    import random
    import matplotlib.pyplot as plt
-   from PIL import Image 
+   from PIL import Image
+   ```
+
+   For ProblemSet2.ipynb：
+   ```bash
+   import os
+   import numpy as np
+   import torch
+   import torch.nn as nn
+   import torch.optim as optim
+   from torch.utils.data import DataLoader, Dataset
+   from torchvision import transforms
+   from PIL import Image
+   import matplotlib.pyplot as plt
+   from sklearn.model_selection import train_test_split
+   from sklearn.metrics import mean_squared_error
+   import seaborn as sns
+   import pandas as pd
